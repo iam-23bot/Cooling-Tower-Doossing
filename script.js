@@ -34,9 +34,9 @@ document.getElementById('coolingTowerForm').addEventListener('submit', function 
         <p>Windage Loss (W): ${windageLoss.toFixed(2)} liter/hari</p>
         <p>Blowdown Rate (B): ${blowdownRate.toFixed(2)} liter/hari</p>
         <p>Make-up Water (M): ${makeUpWater.toFixed(2)} liter/hari</p>
-        <p>Corrosion Inhibitor: ${corrosionInhibitor.toFixed(2)} liter/hari</p>
-        <p>Biocide: ${biocide.toFixed(2)} liter/hari</p>
-        <p>Scale Inhibitor: ${scaleInhibitor.toFixed(2)} liter/hari</p>
-        <p>Bio Dispersant: ${bioDispersant.toFixed(2)} liter/hari</p>
+        <p>Corrosion Inhibitor: ${corrosionInhibitor.toFixed(2)} ml/hari</p>
+        <p>Biocide: ${biocide.toFixed(2)} ml/hari</p>
+        <p>Scale Inhibitor: ${scaleInhibitor.toFixed(2)} ml/hari</p>
+        <p>Bio Dispersant: ${bioDispersant.toFixed(2)} ml/hari</p>
     `;
 });
