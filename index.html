@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooling Tower Dossing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cooling Tower Calculator</h1>
+        <form id="coolingTowerForm">
+            <label for="temperatureDifference">ΔT (°C):</label>
+            <input type="number" id="temperatureDifference" name="temperatureDifference" step="0.01" required>
+            
+            <label for="flowRate">Flow Rate (liter/jam):</label>
+            <input type="number" id="flowRate" name="flowRate" step="0.01" required>
+            
+            <label for="cyclesOfConcentration">Cycles of Concentration:</label>
+            <input type="number" id="cyclesOfConcentration" name="cyclesOfConcentration" step="0.01" required>
+            
+            <label for="corrosionInhibitorDose">Corrosion Inhibitor Dose (ppm):</label>
+            <input type="number" id="corrosionInhibitorDose" name="corrosionInhibitorDose" step="0.01" required>
+            
+            <label for="biocideDose">Biocide Dose (ppm):</label>
+            <input type="number" id="biocideDose" name="biocideDose" step="0.01" required>
+            
+            <label for="scaleInhibitorDose">Scale Inhibitor Dose (ppm):</label>
+            <input type="number" id="scaleInhibitorDose" name="scaleInhibitorDose" step="0.01" required>
+            
+            <label for="bioDispersantDose">Bio Dispersant Dose (ppm):</label>
+            <input type="number" id="bioDispersantDose" name="bioDispersantDose" step="0.01" required>
+            
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result" class="result"></div>
+        <div class="linkedin">
+            <p>LinkedIn: Muhammad Alfi Syahri</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
